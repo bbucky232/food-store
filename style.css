@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto:wght@500&family=Rubik:wght@500;600;700;800&display=swap');
+
+body{
+    height:2000px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    background-color:#fdf2e9 ;
+    position: fixed;
+    top:0px;
+    left:0px;
+    right: 0px;
+}
+
+
+.lading-page-logo{
+    height:25px
+}
+
+.landing-page-nav-bar{
+    text-decoration: none;
+
+}
+.landing-page-nav-bar a{
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color:black;
+    margin-right: 25px;
+    font-size:20px
+}
+.landing-page-nav-bar a:last-child{
+    background-color: orange;
+    padding:8px 16px;
+    color:white;
+    border-radius: 8px;
+}
+
+
+.landing-page-section{
+    background-color: #fdf2e9;
+}
+.landing-page-img{
+    height: 550px;
+}
+.landing-page-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 55px;
+    margin:0 auto;
+    max-width: 1300px;
+    padding:45px 15px;
+}
+.landing-page-container h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 55px;
+}
+.landing-page-container p{
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 40px;
+}
+
+.landing-page-container a{
+    font-family: 'Rubik', sans-serif;
+}
+
+.landing-page-btn-container{
+    margin-bottom: 40px;
+}
+.landing-page-btn1{
+    padding:10px 20px;
+    background-color: orange;
+    text-decoration: none;
+    border-radius: 8px;
+    color:white;
+}
+
+.landing-page-btn2{
+    padding:10px 20px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    color:black;
+    margin-left: 10px;
+
+}
+.landing-page-customer-container{
+    display: flex;
+}
+.landing-page-customer-container p{
+    margin-left: 18px;
+}
+
+
+.landing-page-customer{
+    height: 45px;
+    border-radius: 22px;
+    margin-left:-10px;
+
+}
+.number-of-customers{
+    color:orange;
+}
+
+.landing-page-company-logos{
+    display: flex;
+    justify-content:center;
+    gap:25px;
+    padding: 45px 0px;
+}
+.landing-page-company-logos img{
+    height: 45px;
+}
